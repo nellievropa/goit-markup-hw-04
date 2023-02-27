@@ -35,16 +35,26 @@
           </ul>
        
      
-        <ul class="contact-nav">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
-          </li>
-        </ul>
+          <ul class="contact-nav">
+            <li class="item-mail">
+              <p class="decor">
+                <svg  width="16" height="12">
+                  <use href="./images/sprite.svg#envelope"></use>
+                </svg>
+              </p>
+              <a href="mailto:info@devstudio.com" class="link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="item-phone">
+              <p class="decor">
+                <svg  width="10" height="16">
+                  <use href="./images/sprite.svg#smartphone"></use>
+                </svg>
+              </p>
+              <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            </li>
+          </ul>
       </div>
     </header>
     <!-- main -->
@@ -72,7 +82,7 @@
           </ul>
           <ul class="work-list">
             <li class="work-item">
-              <a href="">
+              <a class="work-item-link" href="">
                 <img
                   src="./images/portfolio/technokriak.jpg"
                   width="370"
@@ -207,7 +217,8 @@
 
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer">
+        <div class="address">
         <a href="./index.html" class="logo"
         ><span class="logo-brand">Web</span
         ><span class="logo-white">Studio</span></a
@@ -225,7 +236,42 @@
           </li>
         </ul>
       </address>
-     
+    </div>
+
+      <!-- Social link -->
+      <div class="container-link">
+        <h3 class="social-link-title">приєднуйтесь</h3>
+        <ul class="social-list-footer list">
+          <li class="social-list-item">
+            <a class="social-list-link-footer" href="">
+              <svg class="social-list-icon" width="20" height="20">
+                <use href="./images/sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link-footer" href="">
+              <svg class="social-list-icon" width="20" height="20">
+                <use href="./images/sprite.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link-footer" href="">
+              <svg class="social-list-icon" width="20" height="20">
+                <use href="./images/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a class="social-list-link-footer" href="">
+              <svg class="social-list-icon" width="20" height="20">
+                <use href="./images/sprite.svg#linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
        </div>
     </footer>
   </body>
