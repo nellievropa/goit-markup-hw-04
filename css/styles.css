@@ -64,10 +64,8 @@ a {
     list-style: none;
 } */
 
-/* .section.no-padding {
- padding-top: 0;
- padding-bottom: 0;
-} */
+
+
 /* HEADER */
 .page-header {
   border-bottom: 1px solid #ececec;
@@ -103,7 +101,7 @@ a {
 .logo-brand:hover {
   color: var(--text-color-gray);
 }
-/* Site nav */
+/* UL-Site nav */
 .site-nav {
   display: flex;
   padding: 0;
@@ -111,6 +109,7 @@ a {
   margin-left: 93px;
   list-style: none;
 }
+/* li */
 .site-nav .item:not(:last-child) {
   /* outline: 2px solid teal; */
   margin-right: 50px;
@@ -124,6 +123,7 @@ a {
 /* .site-nav .item:last-child {
   margin-right: 0; - IT WORKS!!!
 } */
+/* a */
 .link {
   /* margin-top: 9px; */
   font-size: 14px;
